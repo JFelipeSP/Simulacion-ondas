@@ -1,7 +1,7 @@
-#Tuned Mass Damper (TMD) System Simulation
+# Tuned Mass Damper (TMD) System Simulation
 This Python code simulates the behavior of a Tuned Mass Damper (TMD) system using numerical methods. The TMD system consists of two masses connected by springs and dampers. The main purpose of the TMD is to mitigate the effects of vibrations.
 
-##Prerequisites
+## Prerequisites
 Make sure you have the following Python libraries installed:
 
 - 'numpy'
@@ -9,7 +9,7 @@ Make sure you have the following Python libraries installed:
 - 'scipy'
 - 'matplotlib'
 
-##Usage
+## Usage
 1. Import necessary libraries:
 2. Define symbolic parameters and equations of motion
 3. Define functions for the system dynamics
@@ -17,7 +17,7 @@ Make sure you have the following Python libraries installed:
 5. Integrate the system equations using 'odeint'
 6. Visualize the results with an animation and save it as a GIF
 
-##Parameters
+## Parameters
 - 'm': Mass of the main structure
 - 'w': Natural frequency of the main structure
 - 'k': Stiffness of the spring connecting the main structure and the TMD mass
@@ -31,5 +31,5 @@ Make sure you have the following Python libraries installed:
 - 'f0': Amplitude of the external force
 - 'bw': Frequency of the external force
 
-##Results
+## Results
 The simulation provides the displacement of the main structure and the TMD over time. The animation shows the movement of the masses and the springs in the TMD system.
