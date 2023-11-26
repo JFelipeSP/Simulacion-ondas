@@ -82,7 +82,7 @@ def animate(i):
     ax.add_patch(rect1)
 
     # Draw spring 1
-    spring1 = plt.Line2D([0, x[i] - box_size], [box_size / 2, box_size / 2], color='grey', linestyle='-', linewidth=2)
+    spring1 = plt.Line2D([0, x[i] - box_size / 2], [box_size / 2, box_size / 2], color='grey', linestyle='-', linewidth=2)
     ax.add_line(spring1)
 
 
